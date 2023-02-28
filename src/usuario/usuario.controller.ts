@@ -20,8 +20,6 @@ export class UsuarioController {
            const usuarioCriado = this.usuarioService.cria(usuario);
 
         return usuarioCriado;
-
   }
-   
   
 }
